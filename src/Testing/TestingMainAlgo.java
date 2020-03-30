@@ -39,7 +39,7 @@ public class TestingMainAlgo {
         System.out.println(Arrays.toString(Words));
         System.out.println(Words.length);
         
-        String[] Combinations = algo.combinations(Words);
+        = algo.combination(Words, Words.length);
         System.out.println(Arrays.toString(Combinations));
     }
 }

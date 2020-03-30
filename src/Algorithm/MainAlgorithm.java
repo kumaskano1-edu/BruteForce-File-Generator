@@ -13,17 +13,10 @@ public class MainAlgorithm {
     //METHODS START
 
     //algoritm for generating combinations
-    public static String[] combinations(String[] array) {
-
         //TODO: Find a good algoritm for finding the combinations
-        String[] res = new String[-1 >>> -array.length];
-        for (int i = array.length, k = 0; --i >= 0;) {
-            String s = res[k] = array[i].toString();
-            for (int j = 0, x = k++; j < x;)
-                res[k++] = s + res[j++];
+        public static void combination(String[] elements, int k) {
+
         }
-        return res;
-    }
     //String Parsers
     public void ParsingStringVersions(String Input){
         AddToStack(Input);
